@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="3" name="TestSuite" time="89.236" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\prame\Desktop\18020496\18020496"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\prame\Desktop\18020496\18020496"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\prame\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\prame\eclipse-workspace\newproject2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5052952904791688628.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-18.0.2.1/bin/server;C:/Program Files/Java/jdk-18.0.2.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\prame\AppData\Local\Microsoft\WindowsApps;;C:\Users\prame\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\prame"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="prame"/>
+    <property name="java.class.path" value="C:\Users\prame\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\prame\Desktop\18020496\18020496\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.actitime.qa.testcases.HomePageTest" name="homePageLogoTest" time="3.562"/>
+  <testcase classname="com.actitime.qa.testcases.LogonPageTest" name="loginPageLogoTest" time="0.043"/>
+  <testcase classname="com.actitime.qa.testcases.ReportsPageTest" name="homePageReportLinkTest" time="40.34">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text() = &apos;Customers &amp; Projects&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2EIIHUC&apos;, ip: &apos;192.168.8.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\prame\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b1434d9a8cf1756ff7db4e7060a6e9d
+*** Element info: {Using=xpath, value=//div[text() = &apos;Customers &amp; Projects&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text() = &apos;Customers &amp; Projects&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2EIIHUC&apos;, ip: &apos;192.168.8.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\prame\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b1434d9a8cf1756ff7db4e7060a6e9d
+*** Element info: {Using=xpath, value=//div[text() = &apos;Customers &amp; Projects&apos;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at com.actitime.qa.pages.HomePage.reportPageTitleIsDisplayed(HomePage.java:110)
+	at com.actitime.qa.testcases.ReportsPageTest.homePageReportLinkTest(ReportsPageTest.java:35)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.actitime.com/login.do&apos;
+Navigated to:&apos;https://demo.actitime.com/login.do&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Found Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Trying to find Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Found Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6b1434d9a8cf1756ff7db4e7060a6e9d)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6b1434d9a8cf1756ff7db4e7060a6e9d)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Trying to find Element By : By.xpath: //a[@class=&apos;content reports&apos;]
+Found Element By : By.xpath: //a[@class=&apos;content reports&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6b1434d9a8cf1756ff7db4e7060a6e9d)] -&gt; xpath: //a[@class=&apos;content reports&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6b1434d9a8cf1756ff7db4e7060a6e9d)] -&gt; xpath: //a[@class=&apos;content reports&apos;]]
+Trying to find Element By : By.xpath: //div[text() = &apos;Customers &amp; Projects&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text() = &apos;Customers &amp; Projects&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2EIIHUC&apos;, ip: &apos;192.168.8.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\prame\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b1434d9a8cf1756ff7db4e7060a6e9d
+*** Element info: {Using=xpath, value=//div[text() = &apos;Customers &amp; Projects&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 34456
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 25, 2022 9:52:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.actitime.qa.testcases.TaskPageTest" name="homePageTaskLinkTest" time="5.064">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.actitime.qa.testcases.TaskPageTest.homePageTaskLinkTest(TaskPageTest.java:35)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.actitime.com/login.do&apos;
+Navigated to:&apos;https://demo.actitime.com/login.do&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Found Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Trying to find Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Found Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (06e3440246ce4e2aa64bcdd2699e7992)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (06e3440246ce4e2aa64bcdd2699e7992)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Trying to find Element By : By.xpath: //a[@class=&apos;content tasks&apos;]
+Found Element By : By.xpath: //a[@class=&apos;content tasks&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (06e3440246ce4e2aa64bcdd2699e7992)] -&gt; xpath: //a[@class=&apos;content tasks&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (06e3440246ce4e2aa64bcdd2699e7992)] -&gt; xpath: //a[@class=&apos;content tasks&apos;]]
+Trying to find Element By : By.xpath: //div[text() = &apos;Customers &amp; Projects&apos;]
+Found Element By : By.xpath: //div[text() = &apos;Customers &amp; Projects&apos;]
+</system-out>
+    <system-err>Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 17431
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 25, 2022 9:53:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.actitime.qa.testcases.UsersPageTest" name="homePageUserLinkTest" time="40.227">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text() = &apos;Customers &amp; Projects&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2EIIHUC&apos;, ip: &apos;192.168.8.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\prame\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a0268ac6db5c9d004cd4bbeae2768ab
+*** Element info: {Using=xpath, value=//div[text() = &apos;Customers &amp; Projects&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text() = &apos;Customers &amp; Projects&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2EIIHUC&apos;, ip: &apos;192.168.8.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\prame\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a0268ac6db5c9d004cd4bbeae2768ab
+*** Element info: {Using=xpath, value=//div[text() = &apos;Customers &amp; Projects&apos;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at com.actitime.qa.pages.HomePage.userPageTitleIsDisplayed(HomePage.java:115)
+	at com.actitime.qa.testcases.UsersPageTest.homePageUserLinkTest(UsersPageTest.java:34)
+</failure>
+    <system-out>Before navigating to: &apos;https://demo.actitime.com/login.do&apos;
+Navigated to:&apos;https://demo.actitime.com/login.do&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Found Element By : By.xpath: //input[@type=&apos;password&apos;and @name=&apos;pwd&apos;]
+Trying to find Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Found Element By : By.xpath: //a[@id=&apos;loginButton&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8a0268ac6db5c9d004cd4bbeae2768ab)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8a0268ac6db5c9d004cd4bbeae2768ab)] -&gt; xpath: //a[@id=&apos;loginButton&apos;]]
+Trying to find Element By : By.xpath: //a[@class=&apos;content users&apos;]
+Found Element By : By.xpath: //a[@class=&apos;content users&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8a0268ac6db5c9d004cd4bbeae2768ab)] -&gt; xpath: //a[@class=&apos;content users&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8a0268ac6db5c9d004cd4bbeae2768ab)] -&gt; xpath: //a[@class=&apos;content users&apos;]]
+Trying to find Element By : By.xpath: //div[text() = &apos;Customers &amp; Projects&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text() = &apos;Customers &amp; Projects&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2EIIHUC&apos;, ip: &apos;192.168.8.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\prame\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a0268ac6db5c9d004cd4bbeae2768ab
+*** Element info: {Using=xpath, value=//div[text() = &apos;Customers &amp; Projects&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 21694
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 25, 2022 9:53:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>

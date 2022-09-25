@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.actitime.qa.testcases.ReportsPageTest">
+        <methods>
+          <include name="homePageReportLinkTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.actitime.qa.testcases.ReportsPageTest -->
+      <class name="com.actitime.qa.testcases.UsersPageTest">
+        <methods>
+          <include name="homePageUserLinkTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.actitime.qa.testcases.UsersPageTest -->
+      <class name="com.actitime.qa.testcases.TaskPageTest">
+        <methods>
+          <include name="homePageTaskLinkTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.actitime.qa.testcases.TaskPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

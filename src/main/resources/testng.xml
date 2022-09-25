@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "UCSC Test Automation Demo">
+
+
+<listeners>
+		<listener class-name="com.actitime.qa.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+
+    <test name = "Login">
+        <classes>
+            <class name = "com.actitime.qa.testcases.LogonPageTest" />
+        </classes>
+    </test>
+
+   <test name = "HomePage">
+      <classes>
+         <class name = "com.actitime.qa.testcases.HomePageTest" />
+      </classes>
+   </test>
+
+
+    <test name = "UsersPage">
+        <classes>
+            <class name = "com.actitime.qa.testcases.UsersPageTest" />
+        </classes>
+    </test>
+
+    <test name = "ReportsPage">
+        <classes>
+            <class name = "com.actitime.qa.testcases.ReportsPageTest" />
+        </classes>
+    </test>
+
+    <test name = "ReportsPage">
+        <classes>
+            <class name = "com.actitime.qa.testcases.TaskPageTest" />
+        </classes>
+    </test>
+
+
+</suite>
